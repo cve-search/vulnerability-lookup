@@ -1,0 +1,5 @@
+{
+  "static": {
+    "favicon.ico": "YejaTOoCAsJNMAn6Ohh4qazfKznKv5u5FokXqhPVvjQoQ3AoZwnSk1zx3n22uWQs6cGoF6pwDJUDOXZfMrfI/A=="
+  }
+}
