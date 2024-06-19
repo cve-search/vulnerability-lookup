@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://cve.mitre.org/cve/v5_00/tags/reference/",
+    "type": "string",
+    "description": "broken-link: The reference link is returning a 404 error, or the site is no longer online.\n\ncustomer-entitlement: Similar to Privileges Required, but specific to references that require non-public/paid access for customers of the particular vendor.\n\nexploit: Reference contains an in-depth/detailed description of steps to exploit a vulnerability OR the reference contains any legitimate Proof of Concept (PoC) code or exploit kit.\n\ngovernment-resource: All reference links that are from a government agency or organization should be given the Government Resource tag.\n\nissue-tracking: The reference is a post from a bug tracking tool such as MantisBT, Bugzilla, JIRA, Github Issues, etc...\n\nmailing-list: The reference is from a mailing list -- often specific to a product or vendor.\n\nmitigation: The reference contains information on steps to mitigate against the vulnerability in the event a patch can't be applied or is unavailable or for EOL product situations.\n\nnot-applicable: The reference link is not applicable to the vulnerability and was likely associated by MITRE accidentally (should be used sparingly).\n\npatch: The reference contains an update to the software that fixes the vulnerability.\n\npermissions-required: The reference link provided is blocked by a logon page. If credentials are required to see any information this tag must be applied.\n\nmedia-coverage: The reference is from a media outlet such as a newspaper, magazine, social media, or weblog. This tag is not intended to apply to any individual's personal social media account. It is strictly intended for public media entities.\n\nproduct: A reference appropriate for describing a product for the purpose of CPE or SWID.\n\nrelated: A reference that is for a related (but not the same) vulnerability.\n\nrelease-notes: The reference is in the format of a vendor or open source project's release notes or change log.\n\nsignature: The reference contains a method to detect or prevent the presence or exploitation of the vulnerability.\n\ntechnical-description: The reference contains in-depth technical information about a vulnerability and its exploitation process, typically in the form of a presentation or whitepaper.\n\nthird-party-advisory: Advisory is from an organization that is not the vulnerable product's vendor/publisher/maintainer.\n\nvendor-advisory: Advisory is from the vendor/publisher/maintainer of the product or the parent organization.\n\nvdb-entry: VDBs are loosely defined as sites that provide information about this vulnerability, such as advisories, with identifiers. Included VDBs are free to access, substantially public, and have broad scope and coverage (not limited to a single vendor or research organization). See: https://www.first.org/global/sigs/vrdx/vdb-catalog",
+    "enum": [
+        "broken-link",
+        "customer-entitlement",
+        "exploit",
+        "government-resource",
+        "issue-tracking",
+        "mailing-list",
+        "mitigation",
+        "not-applicable",
+        "patch",
+        "permissions-required",
+        "media-coverage",
+        "product",
+        "related",
+        "release-notes",
+        "signature",
+        "technical-description",
+        "third-party-advisory",
+        "vendor-advisory",
+        "vdb-entry"
+    ]
+}

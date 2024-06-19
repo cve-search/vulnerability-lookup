@@ -1,0 +1,7 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://cve.mitre.org/cve/v5_00/tags/adp/",
+    "type": "string",
+    "description": "disputed: When one party disagrees with another party's assertion that a particular issue in software is a vulnerability, a CVE Record assigned to that issue may be tagged as being 'disputed'.",
+    "enum": ["disputed"]
+}
